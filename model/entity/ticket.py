@@ -108,3 +108,21 @@ class Ticket:
     def end_date_time(self, value):
         
         self._end_date_time = value
+        
+    @property
+    def price(self):
+        return self._price
+    
+    @price.setter
+    def price(self, value):
+        
+        self._price = value
+        
+    @property
+    def seat_number(self):
+        return self._seat_number
+    
+    @seat_number.setter
+    def seat_number(self, value):
+        
+        self._seat_number = value
