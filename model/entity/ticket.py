@@ -1,4 +1,4 @@
-from model.tools.ticket_validation import TicketValidation
+from model.tools.ticket_validation import *
 
 
 class Ticket:
@@ -13,16 +13,16 @@ class Ticket:
                  price,seat_number):
         
         
-        self._id = id
-        self._ticket_code = ticket_code
-        self._origin = origin
-        self._destination = destination
-        self._airline = airline
-        self._start_date_time = start_date_time
-        self._start_date_time = start_date_time
-        self._end_date_time = end_date_time
-        self._price = price
-        self._seat_number = seat_number
+        self.id = id
+        self.ticket_code = ticket_code
+        self.origin = origin
+        self.destination = destination
+        self.airline = airline
+        self.start_date_time = start_date_time
+        self.start_date_time = start_date_time
+        self.end_date_time = end_date_time
+        self.price = price
+        self.seat_number = seat_number
 
 
     def to_tuple_ticket(self):
