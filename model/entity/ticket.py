@@ -95,7 +95,7 @@ class Ticket:
     def end_date_time(self):
         return self._start_date_time
     
-    @start_date_time.setter
+    @end_date_time.setter
     def end_date_time(self, value):
         
         self._end_date_time = value

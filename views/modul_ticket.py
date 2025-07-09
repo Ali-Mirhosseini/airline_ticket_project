@@ -10,4 +10,4 @@ def button_remove():
 def button_save():
     
     msg.showinfo(message = 'Saved Successfully')
-    print('Succesfully saved')
+    print('saved successfully')
