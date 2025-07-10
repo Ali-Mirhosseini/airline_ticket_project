@@ -1,5 +1,5 @@
 from model.tools.ticket_validation import *
-import tkinter.messagebox as msg
+
 
 ticket_list = []
 class ticket_controller():
